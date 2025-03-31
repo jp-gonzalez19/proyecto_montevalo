@@ -142,3 +142,24 @@ tabs.forEach( (cadaTab, i ) => {
         magnify(etapaImgID, 2.8)
     })
 })
+
+/*formulario */
+
+/*
+    cuando le den click en enviar
+    detener el comportamiento normal del fomrulario para que no abra otra pagina
+    mostrar mensaje de respuesta
+    eliminar mensaje de respuesta
+*/
+
+const form = document.querySelector('.formulario__form')
+const mensaje = document.querySelector('.mensaje')
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    mensaje.classList.add('mensajeActivo');
+    //para que el mesaje vuelva a desaparecer
+    setTimeout(() => {
+        mensaje.classList.remove('mensajeActivo');
+      }, 3000);
+  });

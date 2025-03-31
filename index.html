@@ -15,14 +15,14 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="header__container">
+        <div class="header__container flex-row">
             <div class="header__logo logo ">
                 <a href="#" class="header__logo-link logo-link">
                     <img src="assets/montevalo_logo_withe.webp" alt="logo montevalo casas de campo">
                 </a>
             </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
+            <nav class="header__nav flex-row">
+                <ul class="header__nav-list flex-row">
                     <li class="header__nav-item"><a href="#main" class="header__nav-link">Inicio</a></li>
                     <li class="header__nav-item"><a href="#ubicacion" class="header__nav-link">Ubicación</a></li>
                     <li class="header__nav-item"><a href="#etapas" class="header__nav-link">Lotes</a></li>
@@ -31,7 +31,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="header__hamburger">
+            <div class="header__hamburger flex-column">
                 <span class="header__hamburger-bar"></span>
                 <span class="header__hamburger-bar"></span>
                 <span class="header__hamburger-bar"></span>
@@ -43,8 +43,8 @@
     <main id="main" class="main">
 
         <!-- HERO section -->
-        <section id="hero" class="hero">
-            <div class="hero__wrapper">
+        <section id="hero" class="hero flex-row">
+            <div class="hero__wrapper flex-row">
                 <div class="hero__wrapper-text">
                     <h1 class="hero__h1">
                         Terrenos Campestres con Facilidades Urbanas: Tu Hogar en la Naturaleza
@@ -62,7 +62,7 @@
 
         <!-- beneficios section -->
         <section class="beneficios">
-            <div class="beneficios__wrapper">
+            <div class="beneficios__wrapper flex-row">
                 <div class="beneficios__wrapper-galeria">
                     <div class="galeria__img-wrapper">
                         <img src="assets/grid1.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
@@ -85,7 +85,7 @@
                         La Combinación Perfecta: Entorno Natural, Rentabilidad y Conveniencia
                     </h2>
                     <ul class="beneficios__ul">
-                        <li class="beneficios__item">
+                        <li class="beneficios__item flex-row">
                             <div class="beneficios__svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
                                     <use xlink:href="#tree"/>
@@ -98,7 +98,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="beneficios__item">
+                        <li class="beneficios__item flex-row">
                             <div class="beneficios__svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
                                     <use xlink:href="#graphUp"/>
@@ -111,7 +111,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="beneficios__item">
+                        <li class="beneficios__item flex-row">
                             <div class="beneficios__svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
                                     <use xlink:href="#store"/>
@@ -131,12 +131,12 @@
 
         <!-- SOCIAL PROOF -->
         <div class="social">
-            <div class="social__wrapper">
-                <ul class="social__reviews">
+            <div class="social__wrapper flex-row">
+                <ul class="social__reviews flex-row">
                     <li class="review">
-                      <div class="review__header">
+                      <div class="review__header flex-row">
                         <img src="#" alt="Avatar Cliente 1" class="review__avatar">
-                        <div class="review__info">
+                        <div class="review__info flex-column">
                           <strong class="review__name">Julian G.</strong>
                           <span class="review__rating">★★★★★</span>
                         </div>
@@ -148,9 +148,9 @@
                     </li>
                 
                     <li class="review">
-                      <div class="review__header">
+                      <div class="review__header flex-row">
                         <img src="#" alt="Avatar Cliente 2" class="review__avatar">
-                        <div class="review__info">
+                        <div class="review__info flex-column">
                           <strong class="review__name">María R.</strong>
                           <span class="review__rating">★★★★☆</span>
                         </div>
@@ -162,9 +162,9 @@
                     </li>
                 
                     <li class="review">
-                      <div class="review__header">
+                      <div class="review__header flex-row">
                         <img src="#" alt="Avatar Cliente 3" class="review__avatar">
-                        <div class="review__info">
+                        <div class="review__info flex-column">
                           <strong class="review__name">Carlos Z.</strong>
                           <span class="review__rating">★★★★★</span>
                         </div>
@@ -179,7 +179,7 @@
         </div>
 
         <section id="ubicacion" class="ubicacion">
-            <div class="ubicacion__wrapper">
+            <div class="ubicacion__wrapper flex-column">
                 <h3 class="ubicacion__h3">Ubicación</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3975.633549297929!2d-75.75263567386328!3d4.832824092406755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1742487070972!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion__map"></iframe>
             </div>
@@ -189,12 +189,12 @@
         <section id="etapas" class="etapas">
             <div class="etapas__wrapper">
                 <h2 class="etapas__h2">Etapas</h2>
-                <ul class="etapas__ul">
+                <ul class="etapas__ul flex-row">
                     <li class="etapas__tab tabActiva">Etapa 1</li>
                     <li class="etapas__tab">Etapa 2</li>
                 </ul>
                 <div class="etapas__contenido">
-                    <article class="etapa etapa-1 contenidoActivo">
+                    <article class="etapa flex-row etapa-1 contenidoActivo">
                         <div class="etapa__texto">
                             <h4 class="etapa__h4">Inicio de la Aventura (Finalizada)</h4>
                             <p class="etapa__p">El origen de nuestra comunidad. La Etapa 1 marcó el inicio de este proyecto único. Aquí, los primeros residentes ya disfrutan de un estilo de vida en armonía con la naturaleza. Descubre el legado de esta etapa y visualiza el futuro que te espera en las siguiente</p>
@@ -209,7 +209,7 @@
                             <img id="img__etapa-1" src="assets/etapa1.svg" alt="plano etapa 1" class="etapa__img imgActiva" >
                         </div>
                     </article>
-                    <div class="etapa etapa-2">
+                    <div class="etapa flex-row etapa-2">
                         <div class="etapa__texto">
                             <h4 class="etapa__h4">Consolidación del Sueño (En Desarrollo)</h4>
                             <p class="etapa__p">La visión toma forma en la Etapa 2. Esta etapa representa la consolidación de un estilo de vida único. Sé parte de la construcción de este sueño, donde cada detalle se planifica para tu bienestar y disfrute.</p>
@@ -231,10 +231,10 @@
        
         <!-- Amenidades -->
         <section class="amenidades">
-            <div class="amenidades__wrapper">
+            <div class="amenidades__wrapper flex-column">
                 <h2 class="amenidades__h2">Amenidades</h2>
-                <ul class="amenidades__ul">
-                    <li class="amenidades__li">
+                <ul class="amenidades__ul flex-row">
+                    <li class="amenidades__li flex-row">
                         <div class="amenidades__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 512 304.78">
                                 <use xlink:href="#gate"/>
@@ -242,7 +242,7 @@
                         </div>
                         <p class="ameindaes__p">2 Porterias</p>
                     </li>
-                    <li class="amenidades__li">
+                    <li class="amenidades__li flex-row">
                         <div class="amenidades__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 111.04 122.88">
                                 <use xlink:href="#security"/>
@@ -251,7 +251,7 @@
                         </div>
                         <p class="ameindaes__p">Control de acceso</p>
                     </li>
-                    <li class="amenidades__li">
+                    <li class="amenidades__li flex-row">
                         <div class="amenidades__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 109.48 122.88">
                                 <use xlink:href="#trash"/>
@@ -260,7 +260,7 @@
                         </div>
                         <p class="ameindaes__p">Shut de basuras</p>
                     </li>
-                    <li class="amenidades__li">
+                    <li class="amenidades__li flex-row">
                         <div class="amenidades__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor"  viewBox="0 0 122.88 109.69">
                                 <use xlink:href="#forest"/>
@@ -268,7 +268,7 @@
                         </div>
                         <p class="ameindaes__p">Zona de arborizacion</p>
                     </li>
-                    <li class="amenidades__li">
+                    <li class="amenidades__li flex-row">
                         <div class="amenidades__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor"  viewBox="0 0 121.97 122.88">
                                 <use xlink:href="#panel"/>
@@ -276,7 +276,7 @@
                         </div>
                         <p class="ameindaes__p">Paneles solares</p>
                     </li>
-                    <li class="amenidades__li">
+                    <li class="amenidades__li flex-row">
                         <div class="amenidades__svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor"  viewBox="0 0 115 122.88">
                                 <use xlink:href="#led"/>
@@ -292,26 +292,26 @@
         <section id="formulario" class="formulario">
             <div class="formulario__wrapper">
                 <h3 class="formulario__h3">¿Listo para tu lote? Contáctanos y recibe atención exclusiva.</h3>
-        
-                <form class="formulario__form" method="post">
+                <p class="mensaje">Gracias por ponerse en contacto con nosotros. Pronto nos comunicaremos con usted.</p>
+                <form class="formulario__form flex-column" method="post">
                     <div class="formulario__campo">
                         <label for="nombre" class="formulario__label">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" class="formulario__input" required>
+                        <input type="text" id="nombre" name="nombre" class="formulario__input" placeholder="tu nombre" required>
                     </div>
         
                     <div class="formulario__campo">
                         <label for="telefono" class="formulario__label">Teléfono:</label>
-                        <input type="tel" id="telefono" name="telefono" class="formulario__input" required>
+                        <input type="tel" id="telefono" name="telefono" class="formulario__input" placeholder="+57 3111111111" required>
                     </div>
         
                     <div class="formulario__campo">
                         <label for="email" class="formulario__label">Email:</label>
-                        <input type="email" id="email" name="email" class="formulario__input" required>
+                        <input type="email" id="email" name="email" class="formulario__input" placeholder="tucorreo@gmail.com" required>
                     </div>
         
                     <div class="formulario__campo">
                         <label for="mensaje" class="formulario__label">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" class="formulario__textarea" required></textarea>
+                        <textarea id="mensaje" name="mensaje" class="formulario__textarea" placeholder="¿cómo podemos aydarte?" required></textarea>
                     </div>
         
                     <button type="submit" class="formulario__boton boton-a ">Enviar</button>
