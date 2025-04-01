@@ -261,7 +261,7 @@ textarea {
   width: 0;
   height: 2px;
   background-color: var(--color--secundario);
-  transition: all .5s ease;
+  transition: width .5s ease;
 }
 
 .header__nav-link:hover:after {
@@ -276,7 +276,8 @@ textarea {
   border: .0313rem solid ;
   border-radius: .625rem;
 
-  transition: all .5s ease;
+  transition: color .5s ease;
+  transition: background-color .5s ease;
 
 }
 .boton:hover {
@@ -314,7 +315,9 @@ textarea {
 }
 
 /* --- HERO --- */
-
+.hero__img {
+  border-radius: .625rem;
+}
 .hero {
   /* background-color: lightblue; */
   padding: var(--padding-xxxl) var(--padding-m) ;
@@ -345,9 +348,7 @@ textarea {
 .hero__wrapper-img {
   width: 55%;
 }
-.hero__img {
-  border-radius: .625rem;
-}
+
 
 /*--- Beneficios ---*/
 
@@ -412,7 +413,7 @@ textarea {
   stroke-width: .6px;
 }
 
-.beneficios__p {
+.beneficios__h3 {
   font-size: var(--size-h5);
   font-weight: 700;
   margin: 0 0 var(--margin-xs);
@@ -548,11 +549,11 @@ textarea {
   /* background-color: lightsalmon; */
   flex: 1;
 }
-.etapa__h4 {
+.etapa__h3 {
   font-size: var(--size-h4);
   margin: 0 0 var(--margin-xs);
 }
-.etapa__h5{
+.etapa__h4{
   font-size: var(--size-h5);
   margin: 0 0 var(--margin-s);
 }

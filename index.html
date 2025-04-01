@@ -1,371 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final</title>
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js" defer></script>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Squada+One&display=swap" rel="stylesheet">
+
+    <!-- Primary Meta Tags -->
+    <title>Montevalo Casas de Campo</title>
+    <meta name="title" content="Montevalo Casas de Campo">
+    <meta name="description" content="Proyecto de venta de lotes rurales en condominio Montevalo, lotes con servicios, espacios naturales y seguridad.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jp-gonzalez19.github.io/proyecto_montevalo/">
+    <meta property="og:title" content="Montevalo Casas de Campo">
+    <meta property="og:description" content="Proyecto de venta de lotes rurales en condominio Montevalo, lotes con servicios, espacios naturales y seguridad.">
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jp-gonzalez19.github.io/proyecto_montevalo/">
+    <meta property="twitter:title" content="Montevalo Casas de Campo">
+    <meta property="twitter:description" content="Proyecto de venta de lotes rurales en condominio Montevalo, lotes con servicios, espacios naturales y seguridad.">
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png">
+
+    <!-- Meta Tags Generated with https://metatags.io -->
 </head>
 
 <body>
-    <!-- HEADER -->
     <header class="header">
         <div class="header__container flex-row">
-            <div class="header__logo logo ">
-                <a href="#" class="header__logo-link logo-link">
-                    <img src="assets/montevalo_logo_withe.webp" alt="logo montevalo casas de campo">
-                </a>
-            </div>
-            <nav class="header__nav flex-row">
-                <ul class="header__nav-list flex-row">
-                    <li class="header__nav-item"><a href="#main" class="header__nav-link">Inicio</a></li>
-                    <li class="header__nav-item"><a href="#ubicacion" class="header__nav-link">Ubicación</a></li>
-                    <li class="header__nav-item"><a href="#etapas" class="header__nav-link">Lotes</a></li>
-                    <li class="header__nav-item">
-                        <button id="boton-contacto" class="header__boton boton" >Contacto</button>  
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__hamburger flex-column">
-                <span class="header__hamburger-bar"></span>
-                <span class="header__hamburger-bar"></span>
-                <span class="header__hamburger-bar"></span>
-            </div>
+          <div class="header__logo logo">
+            <a title="logo montevalo" href="https://jp-gonzalez19.github.io/proyecto_montevalo/" class="header__logo-link logo-link">
+              <img src="assets/montevalo_logo_withe.webp" alt="logo montevalo casas de campo">
+            </a>
+          </div>
+          <nav class="header__nav flex-row">
+            <ul class="header__nav-list flex-row">
+              <li class="header__nav-item"><a title="inicio" href="#main" class="header__nav-link">Inicio</a></li>
+              <li class="header__nav-item"><a title="ubicacion" href="#ubicacion" class="header__nav-link">Ubicación</a></li>
+              <li class="header__nav-item"><a title="etapas" href="#etapas" class="header__nav-link">Lotes</a></li>
+              <li class="header__nav-item">
+                <button id="boton-contacto" class="header__boton boton" title="boton de contacto">Contacto</button>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__hamburger flex-column">
+            <span class="header__hamburger-bar"></span>
+            <span class="header__hamburger-bar"></span>
+            <span class="header__hamburger-bar"></span>
+          </div>
         </div>
-    </header>
-
-    <!-- CONTENIDO PRINCIPAL -->
-    <main id="main" class="main">
-
-        <!-- HERO section -->
+      </header>
+      
+      <main id="main" class="main">
+      
         <section id="hero" class="hero flex-row">
-            <div class="hero__wrapper flex-row">
-                <div class="hero__wrapper-text">
-                    <h1 class="hero__h1">
-                        Terrenos Campestres con Facilidades Urbanas: Tu Hogar en la Naturaleza
-                    </h1>
-                    <p class="hero__p">
-                        Descubre la combinación perfecta de paz y conveniencia en nuestros lotes campestres en Montevalo Casas de Campo, a pasos de todo lo que necesitas.
-                    </p>
-                    <button class="boton-contacto boton boton-inv">Contacto</button>  
-                </div>
-                <div class="hero__wrapper-img">
-                    <img src="assets/hero.webp" alt="Terreno Campestre" class="hero__img">
-                </div>
+          <div class="hero__wrapper flex-row">
+            <div class="hero__wrapper-text">
+              <h1 class="hero__h1">
+                Terrenos Campestres con Facilidades Urbanas: Tu Hogar en la Naturaleza
+              </h1>
+              <p class="hero__p">
+                Descubre la combinación perfecta de paz y conveniencia en nuestros lotes campestres en Montevalo Casas de Campo, a pasos de todo lo que necesitas.
+              </p>
+              <button class="boton-contacto boton boton-inv" title="boton de contacto">Contacto</button>
             </div>
+            <div class="hero__wrapper-img">
+              <img src="assets/hero(1).webp" alt="Terreno Campestre" class="hero__img">
+            </div>
+          </div>
         </section>
-
-        <!-- beneficios section -->
+      
         <section class="beneficios">
-            <div class="beneficios__wrapper flex-row">
-                <div class="beneficios__wrapper-galeria">
-                    <div class="galeria__img-wrapper">
-                        <img src="assets/grid1.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
-                    </div>
-                    <div class="galeria__img-wrapper">
-                        <img src="assets/grid2.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
-                    </div>
-                    <div class="galeria__img-wrapper">
-                        <img src="assets/grid4.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
-                    </div>
-                    <div class="galeria__img-wrapper">
-                        <img src="assets/grid11.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
-                    </div>
-                    <div class="galeria__img-wrapper">
-                        <img src="assets/grid10.webp"  alt="imagen galeria" class="galeria__img" loading="lazy">
-                    </div>
-                </div>
-                <div class="beneficios__wrapper-texto">
-                    <h2 class="beneficios__h2">
-                        La Combinación Perfecta: Entorno Natural, Rentabilidad y Conveniencia
-                    </h2>
-                    <ul class="beneficios__ul">
-                        <li class="beneficios__item flex-row">
-                            <div class="beneficios__svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
-                                    <use xlink:href="#tree"/>
-                                </svg>
-                            </div>
-                            <div class="beneficios__texto">
-                                <p class="beneficios__p">Ubicación Privilegiada en Entorno Natural</p>
-                                <p class="beneficios__p-descripcion">
-                                    Disfruta de la serenidad de la naturaleza sin renunciar a la cercanía de Pereira. Nuestro condominio ofrece un entorno natural excepcional con vistas panorámicas.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="beneficios__item flex-row">
-                            <div class="beneficios__svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
-                                    <use xlink:href="#graphUp"/>
-                                </svg>
-                            </div>
-                            <div class="beneficios__texto">
-                                <p class="beneficios__p">Potencial de Inversión y Valorización</p>
-                                <p class="beneficios__p-descripcion">
-                                    Invierte en un patrimonio con alta valorización. La ubicación estratégica, combinada con el crecimiento y desarrollo del sector, garantizan un alto potencial de inversión.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="beneficios__item flex-row">
-                            <div class="beneficios__svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
-                                    <use xlink:href="#store"/>
-                                </svg>
-                            </div>
-                            <div class="beneficios__texto">
-                                <p class="beneficios__p">Acceso a Servicios y Comodidades Cercanas</p>
-                                <p class="beneficios__p-descripcion">
-                                    Disfruta de la tranquilidad del campo sin renunciar a la comodidad de tener acceso a servicios esenciales, centros comerciales y restaurantes a pocos minutos.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+          <div class="beneficios__wrapper flex-row">
+            <div class="beneficios__wrapper-galeria">
+              <div class="galeria__img-wrapper">
+                <img src="assets/grid1.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
+              </div>
+              <div class="galeria__img-wrapper">
+                <img src="assets/grid2.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
+              </div>
+              <div class="galeria__img-wrapper">
+                <img src="assets/grid4.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
+              </div>
+              <div class="galeria__img-wrapper">
+                <img src="assets/grid11.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
+              </div>
+              <div class="galeria__img-wrapper">
+                <img src="assets/grid10.webp" alt="imagen galeria" class="galeria__img" loading="lazy">
+              </div>
             </div>
+            <div class="beneficios__wrapper-texto">
+              <h2 class="beneficios__h2">
+                La Combinación Perfecta: Entorno Natural, Rentabilidad y Conveniencia
+              </h2>
+              <ul class="beneficios__ul">
+                <li class="beneficios__item flex-row">
+                  <div class="beneficios__svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
+                      <use xlink:href="#tree" />
+                    </svg>
+                  </div>
+                  <div class="beneficios__texto">
+                    <h3 class="beneficios__h3">Ubicación Privilegiada en Entorno Natural</h3>
+                    <p class="beneficios__p-descripcion">
+                      Disfruta de la serenidad de la naturaleza sin renunciar a la cercanía de Pereira. Nuestro condominio ofrece un entorno natural excepcional con vistas panorámicas.
+                    </p>
+                  </div>
+                </li>
+                <li class="beneficios__item flex-row">
+                  <div class="beneficios__svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
+                      <use xlink:href="#graphUp" />
+                    </svg>
+                  </div>
+                  <div class="beneficios__texto">
+                    <h3 class="beneficios__h3">Potencial de Inversión y Valorización</h3>
+                    <p class="beneficios__p-descripcion">
+                      Invierte en un patrimonio con alta valorización. La ubicación estratégica, combinada con el crecimiento y desarrollo del sector, garantizan un alto potencial de inversión.
+                    </p>
+                  </div>
+                </li>
+                <li class="beneficios__item flex-row">
+                  <div class="beneficios__svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="svg-beneficios" viewBox="0 0 16 16">
+                      <use xlink:href="#store" />
+                    </svg>
+                  </div>
+                  <div class="beneficios__texto">
+                    <h3 class="beneficios__h3">Acceso a Servicios y Comodidades Cercanas</h3>
+                    <p class="beneficios__p-descripcion">
+                      Disfruta de la tranquilidad del campo sin renunciar a la comodidad de tener acceso a servicios esenciales, centros comerciales y restaurantes a pocos minutos.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
-
-        <!-- SOCIAL PROOF -->
+      
         <div class="social">
-            <div class="social__wrapper flex-row">
-                <ul class="social__reviews flex-row">
-                    <li class="review">
-                      <div class="review__header flex-row">
-                        <img src="#" alt="Avatar Cliente 1" class="review__avatar">
-                        <div class="review__info flex-column">
-                          <strong class="review__name">Julian G.</strong>
-                          <span class="review__rating">★★★★★</span>
-                        </div>
-                      </div>
-                      <p class="review__text">
-                        "¡Excelente lugar para vivir! La tranquilidad y la belleza natural son incomparables.
-                        Recomendado al 100%."
-                      </p>
-                    </li>
-                
-                    <li class="review">
-                      <div class="review__header flex-row">
-                        <img src="#" alt="Avatar Cliente 2" class="review__avatar">
-                        <div class="review__info flex-column">
-                          <strong class="review__name">María R.</strong>
-                          <span class="review__rating">★★★★☆</span>
-                        </div>
-                      </div>
-                      <p class="review__text">
-                        "Nos encantó el condominio. La ubicación es perfecta y las instalaciones son de primera.
-                        ¡Ideal para familias!"
-                      </p>
-                    </li>
-                
-                    <li class="review">
-                      <div class="review__header flex-row">
-                        <img src="#" alt="Avatar Cliente 3" class="review__avatar">
-                        <div class="review__info flex-column">
-                          <strong class="review__name">Carlos Z.</strong>
-                          <span class="review__rating">★★★★★</span>
-                        </div>
-                      </div>
-                      <p class="review__text">
-                        "Invertir en este condominio fue la mejor decisión. La valorización es constante y el
-                        entorno es inmejorable."
-                      </p>
-                    </li>
-                  </ul>
-            </div>
-        </div>
-
-        <section id="ubicacion" class="ubicacion">
-            <div class="ubicacion__wrapper flex-column">
-                <h3 class="ubicacion__h3">Ubicación</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3975.633549297929!2d-75.75263567386328!3d4.832824092406755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1742487070972!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion__map"></iframe>
-            </div>
-        </section>
-
-        <!-- ETAPAS -->
-        <section id="etapas" class="etapas">
-            <div class="etapas__wrapper">
-                <h2 class="etapas__h2">Etapas</h2>
-                <ul class="etapas__ul flex-row">
-                    <li class="etapas__tab tabActiva">Etapa 1</li>
-                    <li class="etapas__tab">Etapa 2</li>
-                </ul>
-                <div class="etapas__contenido">
-                    <article class="etapa flex-row etapa-1 contenidoActivo">
-                        <div class="etapa__texto">
-                            <h4 class="etapa__h4">Inicio de la Aventura (Finalizada)</h4>
-                            <p class="etapa__p">El origen de nuestra comunidad. La Etapa 1 marcó el inicio de este proyecto único. Aquí, los primeros residentes ya disfrutan de un estilo de vida en armonía con la naturaleza. Descubre el legado de esta etapa y visualiza el futuro que te espera en las siguiente</p>
-                            <h5 class="etapa__h5">Area total</h5>
-                            <p class="etapa__p">78.246,48 m2</p>
-                            <h5 class="etapa__h5">Lotes totales</h5>
-                            <p class="etapa__p">44</p>
-                            <h5 class="etapa__h5">Lotes disponibles</h5>
-                            <p class="etapa__p">Lote 26.</p>
-                        </div>
-                        <div class="etapa__wrapper-img">
-                            <img id="img__etapa-1" src="assets/etapa1.svg" alt="plano etapa 1" class="etapa__img imgActiva" >
-                        </div>
-                    </article>
-                    <div class="etapa flex-row etapa-2">
-                        <div class="etapa__texto">
-                            <h4 class="etapa__h4">Consolidación del Sueño (En Desarrollo)</h4>
-                            <p class="etapa__p">La visión toma forma en la Etapa 2. Esta etapa representa la consolidación de un estilo de vida único. Sé parte de la construcción de este sueño, donde cada detalle se planifica para tu bienestar y disfrute.</p>
-                            <h5 class="etapa__h5">Area total</h5>
-                            <p class="etapa__p">78.246,48 m2</p>
-                            <h5 class="etapa__h5">Lotes totales</h5>
-                            <p class="etapa__p">28</p>
-                            <h5 class="etapa__h5">Lotes disponibles</h5>
-                            <p class="etapa__p">Lote 40 - Lote 41 - Lote 42 - Lote 44 - Lote 46 - Lote 50 - Lote 51 - Lote 53 - Lote 54 - Lote 55 - Lote 57 - Lote 59 - Lote 60 - Lote 64 - Lote 65</p>
-                        </div>
-                        <div class="etapa__wrapper-img">
-                            <img id="img__etapa-2" src="assets/etapa2.svg" alt="plano etapa 2" class="etapa__img" >
-                        </div>
-                    </div>
+          <div class="social__wrapper flex-row">
+            <ul class="social__reviews flex-row">
+              <li class="review">
+                <div class="review__header flex-row">
+                  <img src="#" alt="Avatar Cliente 1" class="review__avatar">
+                  <div class="review__info flex-column">
+                    <strong class="review__name">Julian G.</strong>
+                    <span class="review__rating">★★★★★</span>
+                  </div>
                 </div>
-            </div>
-        </section>
-
-       
-        <!-- Amenidades -->
-        <section class="amenidades">
-            <div class="amenidades__wrapper flex-column">
-                <h2 class="amenidades__h2">Amenidades</h2>
-                <ul class="amenidades__ul flex-row">
-                    <li class="amenidades__li flex-row">
-                        <div class="amenidades__svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 512 304.78">
-                                <use xlink:href="#gate"/>
-                            </svg>
-                        </div>
-                        <p class="ameindaes__p">2 Porterias</p>
-                    </li>
-                    <li class="amenidades__li flex-row">
-                        <div class="amenidades__svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 111.04 122.88">
-                                <use xlink:href="#security"/>
-                            </svg>
-                            
-                        </div>
-                        <p class="ameindaes__p">Control de acceso</p>
-                    </li>
-                    <li class="amenidades__li flex-row">
-                        <div class="amenidades__svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 109.48 122.88">
-                                <use xlink:href="#trash"/>
-                            </svg>
-                            
-                        </div>
-                        <p class="ameindaes__p">Shut de basuras</p>
-                    </li>
-                    <li class="amenidades__li flex-row">
-                        <div class="amenidades__svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor"  viewBox="0 0 122.88 109.69">
-                                <use xlink:href="#forest"/>
-                            </svg>
-                        </div>
-                        <p class="ameindaes__p">Zona de arborizacion</p>
-                    </li>
-                    <li class="amenidades__li flex-row">
-                        <div class="amenidades__svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor"  viewBox="0 0 121.97 122.88">
-                                <use xlink:href="#panel"/>
-                            </svg>      
-                        </div>
-                        <p class="ameindaes__p">Paneles solares</p>
-                    </li>
-                    <li class="amenidades__li flex-row">
-                        <div class="amenidades__svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor"  viewBox="0 0 115 122.88">
-                                <use xlink:href="#led"/>
-                            </svg>
-                        </div>
-                        <p class="ameindaes__p">Iluminación LED</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- seccion de contacto -->
-        <section id="formulario" class="formulario">
-            <div class="formulario__wrapper">
-                <h3 class="formulario__h3">¿Listo para tu lote? Contáctanos y recibe atención exclusiva.</h3>
-                <p class="mensaje">Gracias por ponerse en contacto con nosotros. Pronto nos comunicaremos con usted.</p>
-                <form class="formulario__form flex-column" method="post">
-                    <div class="formulario__campo">
-                        <label for="nombre" class="formulario__label">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" class="formulario__input" placeholder="tu nombre" required>
-                    </div>
-        
-                    <div class="formulario__campo">
-                        <label for="telefono" class="formulario__label">Teléfono:</label>
-                        <input type="tel" id="telefono" name="telefono" class="formulario__input" placeholder="+57 3111111111" required>
-                    </div>
-        
-                    <div class="formulario__campo">
-                        <label for="email" class="formulario__label">Email:</label>
-                        <input type="email" id="email" name="email" class="formulario__input" placeholder="tucorreo@gmail.com" required>
-                    </div>
-        
-                    <div class="formulario__campo">
-                        <label for="mensaje" class="formulario__label">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" class="formulario__textarea" placeholder="¿cómo podemos aydarte?" required></textarea>
-                    </div>
-        
-                    <button type="submit" class="formulario__boton boton-a ">Enviar</button>
-                </form>
-            </div>
-        </section>
-
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer__wrapper">
-            <div class="footer__wrapper-logo">
-                <a href="#" class="footer__logo-link logo-link">
-                    <img src="assets/montevalo_logo_black.webp" alt="logo montevalo casas de campo">
-                </a>
-                <p class="footer__p">&copy;2025 Montevalo</p>
-                <p class="footer__p">Todos los derechos reservados</p>
-            </div>
-            <ul class="footer__ul footer__ul-contacto">
-                <li class="footer__li">
-                    <h5 class="footer__h5">Contáctanos</h5>
-                </li>
-                <li class="footer__li">
-                    <p class="footer__p">Crucero de combia - Montevalo Casas de Campo</p>
-                </li>
-                <li class="footer__li">
-                    <p class="footer__p">Pereira - Colombia</p>
-                </li>
-                <li class="footer__li">
-                    <p class="footer__p">+57 333 333 3333</p>
-                </li>
-                <li class="footer__li">
-                    <p class="footer__p">montevalo@gmail.com</p>
-                </li>
+                <p class="review__text">
+                  "¡Excelente lugar para vivir! La tranquilidad y la belleza natural son incomparables.
+                  Recomendado al 100%."
+                </p>
+              </li>
+      
+              <li class="review">
+                <div class="review__header flex-row">
+                  <img src="#" alt="Avatar Cliente 2" class="review__avatar">
+                  <div class="review__info flex-column">
+                    <strong class="review__name">María R.</strong>
+                    <span class="review__rating">★★★★☆</span>
+                  </div>
+                </div>
+                <p class="review__text">
+                  "Nos encantó el condominio. La ubicación es perfecta y las instalaciones son de primera.
+                  ¡Ideal para familias!"
+                </p>
+              </li>
+      
+              <li class="review">
+                <div class="review__header flex-row">
+                  <img src="#" alt="Avatar Cliente 3" class="review__avatar">
+                  <div class="review__info flex-column">
+                    <strong class="review__name">Carlos Z.</strong>
+                    <span class="review__rating">★★★★★</span>
+                  </div>
+                </div>
+                <p class="review__text">
+                  "Invertir en este condominio fue la mejor decisión. La valorización es constante y el
+                  entorno es inmejorable."
+                </p>
+              </li>
             </ul>
-            <ul class="footer__ul footer__ul-menu">
-                <li class="footer__li">
-                    <h5 class="footer__h5">Menu</h5>
-                </li>
-                <li class="footer__li">
-                    <a href="#main" class="footer__li-link">Inicio</a>
-                </li>
-                <li class="footer__li">
-                    <a href="#ubicacion" class="footer__li-link">Ubicación</a>
-                </li>
-                <li class="footer__li">
-                    <a href="#etapas" class="footer__li-link">Etapas</a>
-                </li>
-            </ul>
+          </div>
         </div>
-
-    </footer>
+      
+        <section id="ubicacion" class="ubicacion">
+          <div class="ubicacion__wrapper flex-column">
+            <h2 class="ubicacion__h2">Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3975.633549297929!2d-75.75263567386328!3d4.832824092406755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1742487070972!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion__map" title="ubicacion en mapa"></iframe>
+          </div>
+        </section>
+      
+        <section id="etapas" class="etapas">
+          <div class="etapas__wrapper">
+            <h2 class="etapas__h2">Etapas</h2>
+            <ul class="etapas__ul flex-row">
+              <li class="etapas__tab tabActiva">Etapa 1</li>
+              <li class="etapas__tab">Etapa 2</li>
+            </ul>
+            <div class="etapas__contenido">
+              <article class="etapa flex-row etapa-1 contenidoActivo">
+                <div class="etapa__texto">
+                  <h3 class="etapa__h3">Inicio de la Aventura (Finalizada)</h3>
+                  <p class="etapa__p">El origen de nuestra comunidad. La Etapa 1 marcó el inicio de este proyecto único. Aquí, los primeros residentes ya disfrutan de un estilo de vida en armonía con la naturaleza. Descubre el legado de esta etapa y visualiza el futuro que te espera en las siguiente</p>
+                  <h4 class="etapa__h4">Area total</h4>
+                  <p class="etapa__p">78.246,48 m2</p>
+                  <h4 class="etapa__h4">Lotes totales</h4>
+                  <p class="etapa__p">44</p>
+                  <h4 class="etapa__h4">Lotes disponibles</h4>
+                  <p class="etapa__p">Lote 26.</p>
+                </div>
+                <div class="etapa__wrapper-img">
+                  <img id="img__etapa-1" src="assets/etapa1(1).webp" alt="plano etapa 1" class="etapa__img imgActiva" >
+                </div>
+              </article>
+              <div class="etapa flex-row etapa-2">
+                <div class="etapa__texto">
+                  <h3 class="etapa__h3">Consolidación del Sueño (En Desarrollo)</h3>
+                  <p class="etapa__p">La visión toma forma en la Etapa 2. Esta etapa representa la consolidación de un estilo de vida único. Sé parte de la construcción de este sueño, donde cada detalle se planifica para tu bienestar y disfrute.</p>
+                  <h4 class="etapa__h4">Area total</h4>
+                  <p class="etapa__p">78.246,48 m2</p>
+                  <h4 class="etapa__h4">Lotes totales</h4>
+                  <p class="etapa__p">28</p>
+                  <h4 class="etapa__h4">Lotes disponibles</h4>
+                  <p class="etapa__p">Lote 40 - Lote 41 - Lote 42 - Lote 44 - Lote 46 - Lote 50 - Lote 51 - Lote 53 - Lote 54 - Lote 55 - Lote 57 - Lote 59 - Lote 60 - Lote 64 - Lote 65</p>
+                </div>
+                <div class="etapa__wrapper-img">
+                  <img id="img__etapa-2" src="assets/etapa2edited(1).webp" alt="plano etapa 2" class="etapa__img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      
+        <section class="amenidades">
+          <div class="amenidades__wrapper flex-column">
+            <h2 class="amenidades__h2">Amenidades</h2>
+            <ul class="amenidades__ul flex-row">
+              <li class="amenidades__li flex-row">
+                <div class="amenidades__svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 512 304.78">
+                    <use xlink:href="#gate" />
+                  </svg>
+                </div>
+                <p class="ameindaes__p">2 Porterias</p>
+              </li>
+              <li class="amenidades__li flex-row">
+                <div class="amenidades__svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 111.04 122.88">
+                    <use xlink:href="#security" />
+                  </svg>
+                </div>
+                <p class="ameindaes__p">Control de acceso</p>
+              </li>
+              <li class="amenidades__li flex-row">
+                <div class="amenidades__svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 109.48 122.88">
+                    <use xlink:href="#trash" />
+                  </svg>
+                </div>
+                <p class="ameindaes__p">Shut de basuras</p>
+              </li>
+              <li class="amenidades__li flex-row">
+                <div class="amenidades__svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 122.88 109.69">
+                    <use xlink:href="#forest" />
+                  </svg>
+                </div>
+                <p class="ameindaes__p">Zona de arborizacion</p>
+              </li>
+              <li class="amenidades__li flex-row">
+                <div class="amenidades__svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 121.97 122.88">
+                    <use xlink:href="#panel" />
+                  </svg>
+                </div>
+                <p class="ameindaes__p">Paneles solares</p>
+              </li>
+              <li class="amenidades__li flex-row">
+                <div class="amenidades__svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" fill="currentColor" viewBox="0 0 115 122.88">
+                    <use xlink:href="#led" />
+                  </svg>
+                </div>
+                <p class="ameindaes__p">Iluminación LED</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      
+        <section id="formulario" class="formulario">
+          <div class="formulario__wrapper">
+            <h3 class="formulario__h3">¿Listo para tu lote? Contáctanos y recibe atención exclusiva.</h3>
+            <p class="mensaje">Gracias por ponerse en contacto con nosotros. Pronto nos comunicaremos con usted.</p>
+            <form class="formulario__form flex-column" method="post" action="/form.html">
+              <div class="formulario__campo">
+                <label for="nombre" class="formulario__label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="formulario__input" placeholder="tu nombre" required>
+              </div>
+      
+              <div class="formulario__campo">
+                <label for="telefono" class="formulario__label">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" class="formulario__input" placeholder="+57 3111111111" required>
+              </div>
+      
+              <div class="formulario__campo">
+                <label for="email" class="formulario__label">Email:</label>
+                <input type="email" id="email" name="email" class="formulario__input" placeholder="tucorreo@gmail.com" required>
+              </div>
+      
+              <div class="formulario__campo">
+                <label for="mensaje" class="formulario__label">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" class="formulario__textarea" placeholder="¿cómo podemos aydarte?" required></textarea>
+              </div>
+      
+              <button type="submit" class="formulario__boton boton-a" title="boton de contacto">Enviar</button>
+            </form>
+          </div>
+        </section>
 
     <!--icons -->
      <div class="simbolos">
