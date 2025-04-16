@@ -475,7 +475,7 @@ textarea {
   border-radius: .625rem;
   box-shadow: 0 2px 16px var(--color--dark);
 }
-.ubicacion__h3 {
+.ubicacion__h2 {
   font-size: var(--size-h3);
   font-weight: bold;
   color: var(--color--secundario);
@@ -595,11 +595,16 @@ textarea {
 .amenidades__li {
   width: 19.375rem;
   gap: var(--gap-m);
+  transition: transform .5s ease;
 }
 
 .ameindaes__p {
   font-size: var(--size-h5);
   font-weight: bold;
+}
+
+.amenidades__li:hover{
+  transform: scale(1.2);
 }
 
 
